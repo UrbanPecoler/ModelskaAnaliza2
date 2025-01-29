@@ -1,0 +1,60 @@
+# General Plot Style
+axes.formatter.use_mathtext : True
+axes.linewidth: 2
+axes.grid: True
+axes.grid.which: both
+axes.grid.axis: both
+axes.xmargin: 0.03
+axes.ymargin: 0.05
+
+# Titles and labelsize
+axes.titlesize: 20
+axes.labelsize: 19
+axes.labelweight: bold
+
+# Ticks
+xtick.labelsize: 20
+ytick.labelsize: 20
+xtick.direction: in
+ytick.direction: in
+# ---- Tole ni treba. For now ---- 
+# xtick.major.width: 2
+# ytick.major.width: 2
+# xtick.minor.width: 1
+# ytick.minor.width: 1
+# xtick.major.size: 7
+# ytick.major.size: 7
+# xtick.minor.size: 4
+# ytick.minor.size: 4
+
+
+# Legends
+legend.fontsize: 20
+legend.loc: best
+legend.handlelength: 2
+legend.labelspacing: 1.5
+legend.borderpad: 1.5
+legend.frameon: True
+legend.framealpha: 0.5
+
+
+# Grid 
+grid.alpha: 0.2
+grid.color: grey
+grid.linestyle: --
+
+
+# Font settings 
+font.family: serif
+font.serif: Times New Roman, Times, DejaVu Serif
+mathtext.fontset: stix
+
+
+# Figure size
+figure.figsize: 12, 7
+
+
+# Saving figures
+savefig.dpi: 300
+savefig.bbox: tight
+# savefig.transparent: True
