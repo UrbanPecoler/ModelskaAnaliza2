@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Scrabbles in pritozevanje
+plan.md
+Plan.md
+Analiza/
+analiza/
