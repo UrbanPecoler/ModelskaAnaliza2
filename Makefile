@@ -24,3 +24,16 @@ outdated:
 write-imports:
 	@echo "Adding imports to new Python files..."
 	@python3 automate_imports.py
+
+lint:
+	@echo "Checking Black changes..."
+	@black --diff .
+
+	@echo "Running Black..."
+	@black .
+
+	@echo "Running Isort..."
+	@isort .
+
+	@echo "Running Flake8..."
+	@flake8 . --show-source --statistics
