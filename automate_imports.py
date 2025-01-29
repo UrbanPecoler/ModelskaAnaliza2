@@ -21,8 +21,8 @@ def get_recent_python_files(cutoff_minutes=5):
     return [
         f
         for f in glob.glob("**/*.py", recursive=True)  # Find all .py files
-        if os.stat(f).st_birthtime > cutoff
-        and "venv/" not in f  # Compare creation time and ignore venv
+        if os.stat(f).st_birthtime > cutoff and "venv/" not in f
+        # Compare creation time and ignore venv
     ]
 
 

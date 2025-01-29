@@ -1,4 +1,4 @@
-.PHONY: 
+.PHONY:
 
 VENV_DIR = venv
 
@@ -8,8 +8,7 @@ recompile-requirements:
 	@pip-compile requirements.in
 
 install-requirements:
-	@$(ACTIVATE)
-	@pip install -r requirements.txt
+	@$(ACTIVATE) pip install -r requirements.txt
 
 update-main-dep:
 	@$(ACTIVATE)
