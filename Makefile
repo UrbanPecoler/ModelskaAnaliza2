@@ -21,3 +21,7 @@ update-main-dep:
 
 outdated:
 	@$(ACTIVATE) pip3 list --outdated 
+
+write-imports:
+	@echo "Adding imports to new Python files..."
+	@python3 automate_imports.py
