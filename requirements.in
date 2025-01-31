@@ -1,8 +1,5 @@
-black
-flake8
-isort
-pandas
-numpy
-matplotlib
-scipy
-tqdm
+pandas~=2.1
+numpy~=2.2
+matplotlib~=3.10
+scipy~=1.15
+tqdm~=4.67
