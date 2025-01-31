@@ -8,6 +8,9 @@ env/
 venv/
 ENV/
 
+# Ignore pip metadata
+*.egg-info/
+
 # Scrabbles in pritozevanje
 plan.md
 Plan.md

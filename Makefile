@@ -37,3 +37,10 @@ lint:
 
 	@echo "Running Flake8..."
 	@flake8 . --show-source --statistics
+
+
+install-package:
+	@pip install -e .
+
+uninstall-package:
+	@pip uninstall modelska2
