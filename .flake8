@@ -1,5 +1,5 @@
 [flake8]
 max-line-length = 90
 max-complexity = 10
-exclude = venv, .venv
+exclude = venv, .venv, proba*
 ignore = F401, F403, F405, E115, E731
